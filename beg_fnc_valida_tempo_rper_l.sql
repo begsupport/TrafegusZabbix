@@ -12,7 +12,7 @@ V_DADO_TABELA integer;
 BEGIN
 select DATE_PART('hour', current_timestamp - min(rper_data_cadastro)) INTO V_DADO_TABELA from rper_recebimento_periferico_l;
 
-IF V_DADO_TABELA > p_horas THEN
+IF V_DADO_TABELA >= p_horas THEN
    RETURN 1;
 ELSE
 RETURN 0;
