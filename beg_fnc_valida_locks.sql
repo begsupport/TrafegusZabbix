@@ -1,4 +1,4 @@
-CREATE OR REPLACE FUNCTION public.beg_fnc_valida_locks(p_locks integer default 10)
+CREATE OR REPLACE FUNCTION public.beg_fnc_valida_locks(p_locks integer default 200)
     RETURNS integer
     LANGUAGE 'plpgsql'
 	COST 100

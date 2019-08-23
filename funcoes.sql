@@ -1,1 +1,11 @@
-select 3+4;
+\i beg_fnc_corrige_tempo_rper_l.sql
+\i beg_fnc_valida_conexoes.sql
+\i beg_fnc_valida_locks.sql
+\i beg_fnc_valida_tempo_rper_l.sql
+\i beg_fnc_valida_parametros.sql
+\i beg_fnc_valida_parametros_hot.sql
+\i beg_fnc_valida_parametros_pendentes.sql
+\i beg_fnc_valida_particoes.sql
+\i beg_fnc_valida_haproxy.sql 
+\i beg_fnc_valida_unlogged_tables.sql 
+\i beg_fnc_valida_atraso_gerador.sql

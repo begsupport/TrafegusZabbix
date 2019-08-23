@@ -18,5 +18,3 @@ execute v_sql;
 RETURN 0;
 END;
 $BODY$;
-
-select beg_fnc_corrige_tempo_rper_l();
